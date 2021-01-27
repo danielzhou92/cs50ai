@@ -55,6 +55,7 @@ def load_data(directory):
 def main():
     if len(sys.argv) > 2:
         sys.exit("Usage: python degrees.py [directory]")
+    # modified file pathing from original file to allow file to be ran from root folder
     directory = sys.argv[1] if len(sys.argv) == 2 else "0a-degrees/large"
 
     # Load data from files into memory
