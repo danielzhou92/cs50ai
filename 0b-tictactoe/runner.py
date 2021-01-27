@@ -13,6 +13,7 @@ white = (255, 255, 255)
 
 screen = pygame.display.set_mode(size)
 
+# modified file pathing from original file to allow file to be ran from root folder
 mediumFont = pygame.font.Font("0b-tictactoe/OpenSans-Regular.ttf", 28)
 largeFont = pygame.font.Font("0b-tictactoe/OpenSans-Regular.ttf", 40)
 moveFont = pygame.font.Font("0b-tictactoe/OpenSans-Regular.ttf", 60)
