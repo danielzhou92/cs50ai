@@ -19,6 +19,7 @@ size = width, height = 600, 400
 screen = pygame.display.set_mode(size)
 
 # Fonts
+# modified file pathing from original file to allow file to be ran from root folder
 OPEN_SANS = "1b-minesweeper/assets/fonts/OpenSans-Regular.ttf"
 smallFont = pygame.font.Font(OPEN_SANS, 20)
 mediumFont = pygame.font.Font(OPEN_SANS, 28)
@@ -32,8 +33,10 @@ cell_size = int(min(board_width / WIDTH, board_height / HEIGHT))
 board_origin = (BOARD_PADDING, BOARD_PADDING)
 
 # Add images
+# modified file pathing from original file to allow file to be ran from root folder
 flag = pygame.image.load("1b-minesweeper/assets/images/flag.png")
 flag = pygame.transform.scale(flag, (cell_size, cell_size))
+# modified file pathing from original file to allow file to be ran from root folder
 mine = pygame.image.load("1b-minesweeper/assets/images/mine.png")
 mine = pygame.transform.scale(mine, (cell_size, cell_size))
 
