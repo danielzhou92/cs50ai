@@ -65,7 +65,7 @@ This project is to write an algorithm that predicts the likelihood of a person p
 
 [YouTube demo](https://youtu.be/Jgs_Vw_9pZU)
 
-This project is to write an AI that can generate a crossword puzzle when given a puzzle structure and a dictionary of words to choose from. It’s essentially a constraint satisfaction problem where the AI must satisfy the rules of generating the puzzle while maintaining arc and node consistency (i.e. has to have overlapping characters between words, no repeating words, correct word lengths). The solution utilizes backtrack search to try to assign words to the puzzle recursively. The AI must be optimized so that every time it tries to assign a particular word into the puzzle, that word should be the least constraining option (i.e. that word eliminates the least amount of possible words choices for neighboring variables)
+This project is to write an AI that can generate a crossword puzzle when given a puzzle structure and a dictionary of words to choose from. It’s essentially a constraint satisfaction problem where the AI must satisfy the rules of generating the puzzle while maintaining arc and node consistency (i.e. has to have overlapping characters between words, no repeating words, correct word lengths). The solution utilizes backtrack search to try to assign words to the puzzle recursively. The AI must be optimized so that every time it tries to assign a particular word into the puzzle, that word should be the least constraining option (i.e. that word eliminates the least amount of possible words choices for neighboring variables).
 
 *usage ex.* `python 3-crossword/generate.py 3-crossword/data/structure1.txt 3-crossword/data/words2.txt`
 
